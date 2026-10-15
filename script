@@ -989,7 +989,7 @@ function GUI.Create()
     local creditBtn = Instance.new("TextButton"); creditBtn.BackgroundTransparency=1; creditBtn.Position=UDim2.new(0,10,0,0)
     creditBtn.Size=UDim2.new(1,-20,1,0); creditBtn.Font=Enum.Font.RobotoMono; creditBtn.TextSize=10
     creditBtn.TextColor3=Palette.MenuTextDim; creditBtn.TextXAlignment=Enum.TextXAlignment.Right
-    creditBtn.Text="t.me/LuaRobloxScripts  (click to copy)"; creditBtn.Parent=footer
+    creditBtn.Text="t.me/LuaProject  (click to copy)"; creditBtn.Parent=footer
     creditBtn.MouseButton1Click:Connect(function()
         pcall(function() setclipboard("https://t.me/LuaProject") end)
         creditBtn.TextColor3=Palette.MenuAccent; task.wait(0.2); creditBtn.TextColor3=Palette.MenuTextDim
